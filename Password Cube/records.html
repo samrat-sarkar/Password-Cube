@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Records</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 16px;
+      font-family: 'Google Sans', Roboto, Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      color: #202124;
+      max-width: 100%;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #dadce0;
+    }
+
+    .header img {
+      width: 40px;
+      height: 40px;
+      margin-right: 12px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 500;
+      color: #202124;
+    }
+
+    .record-container {
+      background-color: white;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #dadce0;
+      margin-top: 16px;
+      width: auto;
+      overflow-x: auto;
+    }
+
+    .record-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .record-table th,
+    .record-table td {
+      padding: 8px;
+      text-align: left;
+      font-size: 14px;
+      color: #202124;
+    }
+
+    .record-table th {
+      color: #5f6368;
+      font-weight: 500;
+    }
+
+    .record-table td {
+      word-break: break-word;
+    }
+
+    .no-records {
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+      color: #5f6368;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png" alt="Logo">
+    <h1>Saved Records</h1>
+  </div>
+
+  <div class="record-container">
+    <table class="record-table">
+      <thead>
+        <tr>
+          <th>Domain</th>
+          <th>Creation Date</th>
+          <th>Expiration Date</th>
+          <th>Days Left</th>
+        </tr>
+      </thead>
+      <tbody id="recordTable">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="records.js"></script>
+</body>
+</html>
