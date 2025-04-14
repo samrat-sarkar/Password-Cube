@@ -2,6 +2,9 @@
 
 ## 📝 Description
 Password Cube is a robust and privacy-focused Chrome extension designed to help you generate strong, secure, and unique passwords. The extension allows you to manage password expiration, auto-fill login forms, and enhance online safety with ease. With Password Cube, you can take control of your online security by effortlessly managing passwords and ensuring they’re updated regularly.
+
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Password%20Cube-blue)](https://chromewebstore.google.com/detail/password-cube/nopnnjggbngoblfplfppcaddjgolbdlk)
+
 ## ✨ Features
 - 🔒 Password Generation: Generate strong and unique passwords effortlessly
 - ⏰ Password Expiration: Set expiration dates to ensure passwords are regularly updated
